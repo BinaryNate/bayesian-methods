@@ -78,3 +78,12 @@ Summary in my words: Distributions can be used to model the values of a random v
 
 - B. Cronin has a very motivating description of probabilistic programming:
 > Another way of thinking about this: unlike a traditional program, which only runs in the forward directions, a probabilistic program is run in both the forward and backward direction. It runs forward to compute the consequences of the assumptions it contains about the world (i.e., the model space it represents), but it also runs backward from the data to constrain the possible explanations. In practice, many probabilistic programming systems will cleverly interleave these forward and backward operations to efficiently home in on the best explanations.
+
+
+### Interpretation
+
+> Recall that Bayesian methodology returns a distribution...the wider the distribution, the less certain our posterior belief should be.
+
+> We'll use the posterior samples to answer the following question: what is the expected number of texts at day t, 0 ≤ t ≤70 ? Recall that the expected value of a Poisson variable is equal to its parameter λ. Therefore, the question is equivalent to what is the expected value of λ at time t?
+
+> As explained, the "message count" random variable is Poisson distributed, and therefore lambda (the poisson parameter) is the expected value of "message count".
